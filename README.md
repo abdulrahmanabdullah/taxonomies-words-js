@@ -92,3 +92,14 @@ var textapi = new aylien({
 ### Using the API
 We're ready to go! The API has a lot of different endpoints you can take a look at [here](https://docs.aylien.com/textapi/endpoints/#api-endpoints). And you can see how using the SDK simplifies the requests we need to make. 
 In this app I'M using taxonomies with text.
+
+## Testing folder :
+I'm writing some test like async testing when api is called and dom testing to check some element is empty when page loaded also express testing for testing our route.
+to check it run this command : 
+```
+yarn test
+``` 
+And to keep jest track your testing when some change ocurred 
+```
+yarn test-watch 
+``` 

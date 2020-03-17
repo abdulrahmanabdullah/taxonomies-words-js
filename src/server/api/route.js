@@ -1,7 +1,6 @@
 const path = require('path');
 const express = require('express');
 const router = express.Router();
-const mockApi = require('../mockAPI')
 const ayilen = require('aylien_textapi');
 const dotenv = require('dotenv');
 

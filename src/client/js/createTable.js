@@ -1,4 +1,4 @@
-export function createTable(object) {
+function createTable(object) {
     const resultUI = document.querySelector('#results');
     const div = document.createElement('div');
     div.innerHTML = `
@@ -33,3 +33,4 @@ export function createTable(object) {
     resultUI.append(div);
     // resultUI.innerHTML = ''; // remove old table.
 }
+export { createTable }

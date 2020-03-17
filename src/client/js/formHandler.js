@@ -5,10 +5,4 @@ export function handleSubmit(checkForName) {
         checkForName(inputText);
         e.preventDefault();
     });
-    // check what text was put into the form field
-    // fetch('http://localhost:3300/test')
-    //     .then(res =>
-    //         res.json()
-    //     ).then(data => console.log(data, 'dada'))
-    //     .catch(err => console.log(err));
 }

@@ -37,10 +37,23 @@
                     </div>
                 </section>
         </main>
+        <hr>
         <footer>
-            <p>This is a footer</p>
+            <p class="h1">Development By
+                <small class="text-muted">Abdulrahman ❤️</small>
+            </p>
         </footer>
     </div>
+
+    <script>
+        //Check service work exist or not .
+        if ('serviceWorker' in navigator) {
+            console.log('yes');
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+            })
+        }
+    </script>
 </body>
 
 </html>

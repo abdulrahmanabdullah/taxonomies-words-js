@@ -31,6 +31,5 @@ function createTable(object) {
                             </table>
     `;
     resultUI.append(div);
-    // resultUI.innerHTML = ''; // remove old table.
 }
 export { createTable }

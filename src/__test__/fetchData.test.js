@@ -1,4 +1,4 @@
-import { fetchData } from './fetchData';
+import { fetchData } from '../client/js/fetchData';
 
 
 // Use mock function to make api request with global function.
